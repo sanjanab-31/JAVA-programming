@@ -1,4 +1,6 @@
+import java.util.*; 
 public class Array {
+    
     public static void main(String[] args)
     {
         int[] arr = {1,2,23,3,4};
@@ -18,6 +20,15 @@ public class Array {
         System.out.println(arr[2]);
         System.out.println(arr[3]);
         System.out.println(arr[4]);
+        int[] ar = new int[5];
+        Scanner num = new Scanner(System.in); 
+        for (int i = 0; i < 5; i++) {
+            ar[i] = num.nextInt();  
+        }
+        System.out.println("User-entered numbers:");
+        for (int i = 0; i < 5; i++) {
+            System.out.println(ar[i]);  
+        }
     }
 
 
