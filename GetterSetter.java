@@ -56,14 +56,15 @@ public class GetterSetter {
         this.id=id;
         this.age=age;
         this.salary=salary;
-        System.out.println("Name: " + getName());
-        System.out.println("ID: " + getID());
-        System.out.println("Age: " + getAge());
-        System.out.println("Salary: " + getsalary());
+        System.out.println("Name: " + name);
+        System.out.println("ID: " + id);
+        System.out.println("Age: " + age);
+        System.out.println("Salary: " + salary);
     }
 
     public static void main(String[] args)
     {
         GetterSetter obj=new GetterSetter("Sanjana",1,17,50000f);
+        System.out.println("Retrieved Name: " + obj.getName());
     }
 }
