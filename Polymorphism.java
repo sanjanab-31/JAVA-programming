@@ -1,4 +1,4 @@
-public class PolymorphismVehicle {
+public class Polymorphism {
     public static void main(String[] args) {
         class Vehicle {
             void start() {
@@ -15,7 +15,6 @@ public class PolymorphismVehicle {
                     System.out.println("Bus starts");
                 }
         }
-    
         Vehicle v;
         v= new Vehicle();
         v.start();
@@ -26,4 +25,3 @@ public class PolymorphismVehicle {
     }
         
 }
-
